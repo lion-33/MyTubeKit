@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "MyTubeKit",
             dependencies: [],
-            resources: [.process("Resources")], moduleAliases: ["YouTubeKit": "MyTubeKit"]),
+            resources: [.process("Resources")]),
         .testTarget(
             name: "MyTubeKitTests",
             dependencies: ["MyTubeKit"]),
