@@ -24,6 +24,7 @@ let package = Package(
         .target(
             name: "MyTubeKit",
             dependencies: [],
+             path: "Sources/YouTubeKit",
             resources: [.process("Resources")]),
         .testTarget(
             name: "MyTubeKitTests",
